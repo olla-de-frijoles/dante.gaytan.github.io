@@ -1,0 +1,111 @@
+body{
+	background-color: rgb(0,0,0);
+}
+#text{
+	margin: 0px;
+	padding: 50px;
+	background-color: grey;
+	color: black;
+}
+
+h2{
+	text-align: left;
+	font-size: 50px;
+	margin: 50px;
+}
+#head{
+	border: 5px solid black;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: rgb(25,25,25);
+}
+#links1{
+	width: 19.19%;
+	height: 30px;
+	border: 5px solid black;
+	float: right;
+	text-align: center;
+	color: white;
+	background-color: rgb(25,25,25);
+	border-bottom: 5px solid black;
+}
+
+#links2{
+	width: 19.19%;
+	height: 30px;
+	border: 5px solid black;
+	float: left;
+	text-align: center;
+	color: white;
+	background-color: rgb(25,25,25);
+	border-bottom: 5px solid black;
+}
+#links3{
+	width: 19.19%;
+	height: 30px;
+	border: 5px solid black;
+	float: left;
+	text-align: center;
+	color: white;
+	background-color: rgb(25,25,25);
+	border-bottom: 5px solid black;
+}
+#glow{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 20px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+  }
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
+  }
+}
+#English{
+	font-size: 20px;
+	border: 5px solid white; 
+	background-color: lightgrey; 
+	width: 75%; 
+	height: 1125px; 
+	float: center; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#img1{
+	height: 270px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#Who{
+	font-size: 20px;
+	border: 5px solid white; 
+	background-color: lightgrey; 
+	width: 75%; 
+	height: 1820px; 
+	float: center; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#img2{
+	width: 900px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 5px solid black;
+}
+#infograph{
+	width: 100%;  
+	float: center; 
+}
+}
+@media only screen
+and (min-width: 321px)
+and (max-width: 1024px) {
+	#infograph{
+	width: 90%;  
+	float: center; 
+}
